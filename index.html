@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Modal</title>
+    <link href="https://fonts.googleapis.com/css?family=Roboto:400,700" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+<button data-toggle="modal" data-target="myModal">Show Modal</button>
+
+<div class="modal show" id="myModal">
+    <div class="dialog">
+        <div class="dialog__header">
+            <h1>Modal</h1>
+            <button class="dialog__close-button">x</button>
+        </div>
+        <div class="dialog__body">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores beatae explicabo, quidem, excepturi deleniti nobis nesciunt culpa quisquam ipsa omnis, inventore illum necessitatibus dolorem eaque. Obcaecati odio autem consequatur explicabo aliquid corporis, optio reprehenderit neque cumque dolorem aliquam magni illo ab, sequi dolorum sed hic libero in fugit maiores iure.
+        </div>
+    </div>
+    <div class="modal__dimmer"></div>
+</div>
+
+<script src="main.js"></script>
+</body>
+</html>
